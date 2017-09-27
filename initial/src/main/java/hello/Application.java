@@ -14,6 +14,12 @@ public class Application {
 		return "Hello Docker World!!";
 	}
 
+	@RequestMapping("/debris")
+	public String debis() {
+		return "Debris algo";
+	}
+
+
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
